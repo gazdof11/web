@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <link rel="stylesheet" href="mystyle.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>evszakok</title>
+</head>
+<body>
+    <style>
+ .tavasz{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+ }
+.nyar{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.osz{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.tel{
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.tavasz:hover{
+    transform: scale(110%);
+}
+.nyar:hover{
+    transform: scale(110%);
+}
+.osz:hover{
+    transform: scale(110%);
+}
+.tel :hover{
+    transform: scale(110%);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 34, 34);
+}
+li {float: left;
+}
+li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: rgb(177, 177, 177);
+}
+.active {
+    background: color #858585; 
+}
+    </style>
+    <ul>
+        <li><a href="index.html">Kezdőlap</a></li>
+        <li><a href="lista.html">Lista</a></li>
+        <li><a href="tablazat.html">tablazat</a></li>
+        <li><a href="keplink.html">képlink</a></li>
+        <li><a class="active" href="evszakok.html">Évszakok</a></li>
+    </ul>
+
+    <div class="tavasz">
+        <img style="height: 140px;" width="190px" src="img/tavasz.jpg" alt="">
+    </div>
+    <div class="nyar">
+        <img style="height: 140px;" width="190px"  src="img/nyar.jpg" alt="">
+    </div>
+    <div class="osz">
+        <img style="height: 140px;" width="190px"  src="img/osz.jpg" alt="">
+    </div>
+    <div class="tel">
+        <img style="height: 140px;" width="190px"  src="img/tel.jpg" alt="">
+    </div>
+</body>
+</html>
