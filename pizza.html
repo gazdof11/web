@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pizza rendeles</title>
+</head>
+<body bgcolor="green">
+    <style>
+
+footer {
+text-align: center;
+padding: 3px;
+background-color: rgb(78, 41, 52);
+color: blueviolet;
+display:block;
+}
+ul{
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: blueviolet;
+}
+
+li{
+float: left;
+}
+
+li a{
+    display: block;
+    color: rgb(78, 41, 52);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: rgb(177, 41, 111);
+}
+.active {
+background-color: blue;
+
+}
+
+    </style>
+    <ul>
+        <li><a href="index.html">Kezdőlap</a></li>
+          <li><a href="lista.html">Lista</a></li>
+          <li><a href="tablazat.html">Táblázat</a></li>
+          <li><a  href="keplink.html">Keplink</a></li>
+          <li><a href="evszakok.html">Évszakok</a></li>
+          <li><a class="active" href="pizza.html">Pizza</a></li>
+        </ul>
+        <img align="right" src="img/pizza.png" alt="pizza kép" height="300">
+        <h1 style="font-family: 'Gill sans' ,'Gill Sans MT' , Calibri, 'Trebuchet MS' , sans-serif; color:blue"><em>PIZZA RENDELÉS</em></h1>
+        <form action="pizza.html"><fieldset>
+            <legend>vevő adatai</legend>
+            Név:          <input type="text">
+            <br>
+            <br>
+            Telefonszám:  <input type="text">
+            <br>
+            <br>
+            Falu/Város:  <input type="text">
+            <br>
+            <br>
+            Utca:  <input type="text">
+            Házszám:  <input type="text">
+
+        </fieldset>
+    <fieldset>
+        <legend>Pizza</legend>
+        Méret:
+        <br>
+        <input type="radio" name="kicsi" value="26cm">26cm
+        <br>
+        <input type="radio" name="közepes" value="34cm">34cm
+        <br>
+        <input type="radio" name="nagy" value="52cm">52cm
+        <br>
+
+        <br>
+        
+        Feltétek: <br>
+        
+        <input type="checkbox" name="sajt"
+        
+        id=""> Sajt
+        
+        <br>
+        
+        <input type="checkbox" name="sonka"
+        
+        id=""> Sonka
+        
+        <br>
+        
+        <input type="checkbox" name="Gomba"
+        
+        id=""> Gomba
+        
+        <br>
+        
+        <input type="checkbox"
+        
+        name="Kukorica" id=""> Kukorica
+        
+        <br>
+        
+        <input type="checkbox" name="bacon"
+        
+        id=""> Bacon
+        
+        <br>
+        
+        <input type="checkbox"
+        
+        name="lilahagyma" id=""> lilahagyma
+        
+        <br>
+        
+        <br>
+        
+        Mennyiség: <input type="number">
+        
+        </fieldset>
+        
+        <fieldset>
+        
+        <legend>Üdítők</legend>
+        
+        <table>
+        
+        <tr>
+        
+            <td><input type="checkbox">
+        
+                Coca Cola </td>
+                
+                <td><input type="number"> db.
+    
+        
+        <br> </tr>
+        
+        <br>
+        
+        <td><input type="checkbox">
+        
+        Coca Cola Zero</td>
+        
+        <td><input type="number"> db.
+        
+        </td>
+        
+        <br>
+        
+        </tr>
+        
+        <td><input type="checkbox">
+        
+        Fanta </td>
+        
+        <td><input type="number"> db.
+        
+        </td>
+        
+        <br>
+        
+        </tr>
+        
+        <td><input type="checkbox">
+        
+        Xixo Tea </td>
+        
+        <td><input
+        
+        type="number"> db.
+        
+        </td>
+        
+        <br>
+    </tr>
+
+    <td><input type="checkbox">
+    
+    Sprite </td>
+    
+    <td><input type="number"> db.
+    
+    </td>
+    
+    </tr>
+    
+    </table>
+    
+    <br>
+    
+    </fieldset>
+    
+    <fieldset>
+    
+    
+    
+    <textarea cols=40 rows=4></textarea>
+    
+    <br> <input type='reset'
+    
+    name="visszaállítás" value="Reset"> <input type='submit' value="Submit">
+    
+    </fieldset>
+    
+    </form>
+    
+    </div>
+    
+    <footer>
+    
+    <p>MILANLOL</p>
+    
+    </footer>
+
+
+
+</body>
+</html>
