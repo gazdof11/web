@@ -1,4 +1,6 @@
-body{
+
+  
+    body{
     padding: 15px;
     background-image:url("../img/hatter.png") ;
   }
@@ -78,6 +80,9 @@ body{
   .blokktores{
     clear: both;
   }
+ 
+
+  
  
 
   
