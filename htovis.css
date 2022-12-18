@@ -1,31 +1,18 @@
-
-  
-    body{
+body{
     padding: 15px;
-    background-image:url("../img/hatter.png") ;
+    background-image: url("../img/hatter.png");
   }
-  #bevezeto { 
-    width: 600px;
-  }
+  
   h1{
     text-align:center;
     font-size: 222%;
     margin: 0px 0px 10px;
-    color: #eb7100 ;
     text-transform: uppercase;
-  }
-  h1 { 
-    text-align: center;
-    font-size: 222%;
-    margin: 0px 0px 10px;
     color: #eb7100;
-    text-transform: uppercase;
   }
-
-  h2 {
-    color: #eb7100;
+  h2{
     text-transform: uppercase;
-
+    color: #eb7100;
   }
   
   p{
@@ -49,7 +36,9 @@
     background-color: #f1f1f1;
     box-shadow: 10px 10px 5px #cfb7a2;
   }
-  
+  #bevezeto{
+    width: 600px;
+  }
   #erdekesseg{
     width:250px;
     float:right;
@@ -72,17 +61,13 @@
   }
   
   li{
+    list-style-image: url("../img/bogyo.png");
     margin: 3px 0px;
     font-style: italic;
-    list-style-image: url(../img/bogyo.png);
   }
   
   .blokktores{
     clear: both;
   }
- 
-
   
- 
-
-  
+    
