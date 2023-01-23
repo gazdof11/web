@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="szamolo.css">
+    <title>Számológép</title>
+</head>
+<body>
+    <h1>Számológép</h1>
+<form action="javascript:void(0)">
+<fieldset>
+<legend>Egyszérű számológép</legend>
+<input type="number" name="szam" id="szam1" placeholder="SZAM 1">
+<input type="number" name="szam" id="szam2" placeholder="SZAM 2">
+<input type="text" id="eredmeny" placeholder="EREDMÉNY" readonly>
+<br><br>
+<label for="muv">művelet:</label>
+<input type="button" name="muv" value="+" onclick="ad()">
+<input type="button" name="muv" value="-" onclick="kiv()">
+<input type="button" name="muv" value="*" onclick="szor()">
+<input type="button" name="muv" value=":" onclick="oszt()">
+<input type="reset" name="muv" value="DEL">
+
+</fieldset>
+
+</form>
+
+<script>
+    function ad() {
+        eredmeny.value = Number(szam1.value) + Number(szam2.value)
+    }
+    function kiv() {
+        eredmeny.value = Number(szam1.value) - Number(szam2.value)
+    }
+    function szor() {
+        eredmeny.value = Number(szam1.value) * Number(szam2.value)
+    }
+    function oszt() {
+        eredmeny.value = Number(szam1.value) / Number(szam2.value)
+    }
+</script>
+</body>
+</html>
